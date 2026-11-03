@@ -11,9 +11,9 @@ if (!subcommand || subcommand === "--help" || subcommand === "-h") {
 Parent Node CLI
 
 Usage:
-  npx parent-node-tool create <tool-name>   Scaffold a new tool
-  npx parent-node-tool list                  List all registered tools
-  npx parent-node-tool clean                 Remove all temp files
+  npx dailytools create <tool-name>   Scaffold a new tool
+  npx dailytools list                  List all registered tools
+  npx dailytools clean                 Remove all temp files
 `);
   process.exit(0);
 }
@@ -26,7 +26,7 @@ if (subcommand === "create") {
 
   if (!toolName) {
     console.error("Error: tool name is required.");
-    console.log("Usage: npx parent-node-tool create <tool-name>");
+    console.log("Usage: npx dailytools create <tool-name>");
     process.exit(1);
   }
 
@@ -130,7 +130,7 @@ if (subcommand === "list") {
       .filter(Boolean);
 
     if (tools.length === 0) {
-      console.log("No tools found. Create one with: npx parent-node-tool create <name>");
+      console.log("No tools found. Create one with: npx dailytools create <name>");
       return;
     }
 

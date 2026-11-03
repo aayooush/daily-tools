@@ -41,7 +41,7 @@ The registry at `lib/registry.ts` scans `app/tools/` for directories with `tool.
 | **PDF to Text** | Returns text directly (pdf-parse) | ❌ None |
 | **Video Trim** | Writes temp → reads → deletes | ✅ Auto-cleaned |
 
-**CLI command:** `npx parent-node-tool clean` — removes stale temp directories.
+**CLI command:** `npx dailytools clean` — removes stale temp directories.
 
 ---
 
@@ -201,7 +201,7 @@ RUN apt-get update && apt-get install -y ffmpeg
 
 ## Adding a New Tool
 
-1. **Scaffold:** `npx parent-node-tool create <tool-name>`
+1. **Scaffold:** `npx dailytools create <tool-name>`
 2. **Update `tool.json`:** Set icon, name, description
 3. **Build UI in `page.tsx`:** Add `"use client"` at the top
 4. **Implement logic in `action.ts`:** Use `"use server"`, return base64
@@ -210,9 +210,9 @@ RUN apt-get update && apt-get install -y ffmpeg
 ### CLI Commands
 
 ```bash
-npx parent-node-tool create <name>   # Scaffold a new tool
-npx parent-node-tool list             # List all tools
-npx parent-node-tool clean            # Remove temp files
+npx dailytools create <name>   # Scaffold a new tool
+npx dailytools list             # List all tools
+npx dailytools clean            # Remove temp files
 ```
 
 ---
