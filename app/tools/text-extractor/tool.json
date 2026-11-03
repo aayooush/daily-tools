@@ -1,0 +1,7 @@
+{
+  "slug": "text-extractor",
+  "name": "Text Extractor",
+  "category": "document",
+  "description": "Extract text from images (OCR) or PDFs",
+  "version": "1.0.0"
+}

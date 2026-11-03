@@ -1,0 +1,7 @@
+{
+  "slug": "pdf-to-text",
+  "name": "PDF to Text",
+  "category": "document",
+  "description": "Extract text content from PDF files",
+  "version": "1.0.0"
+}

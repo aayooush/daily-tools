@@ -1,0 +1,21 @@
+# Dependencies (rebuild automatically)
+node_modules
+npm-debug.log*
+
+# Next.js
+.next
+out
+
+# Local dev
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+DOCKER.md

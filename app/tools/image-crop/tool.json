@@ -1,0 +1,7 @@
+{
+  "slug": "image-crop",
+  "name": "Image Crop",
+  "category": "image",
+  "description": "Crop images to a custom region with precision",
+  "version": "1.0.0"
+}

@@ -1,0 +1,7 @@
+{
+  "slug": "pdf-compressor",
+  "name": "PDF Compressor",
+  "category": "document",
+  "description": "Reduce PDF file size while preserving readability",
+  "version": "1.0.0"
+}

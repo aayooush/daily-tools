@@ -1,0 +1,7 @@
+{
+  "slug": "video-trim",
+  "name": "Video Trim",
+  "category": "video",
+  "description": "Trim videos to exact start/end times (max 50MB)",
+  "version": "1.0.0"
+}

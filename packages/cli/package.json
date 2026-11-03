@@ -1,0 +1,9 @@
+{
+  "name": "@parent-node/cli",
+  "version": "0.1.0",
+  "description": "CLI for scaffolding new tools in Parent Node",
+  "bin": {
+    "parent-node-tool": "./bin/cli.js"
+  },
+  "license": "MIT"
+}

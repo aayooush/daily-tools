@@ -1,0 +1,8 @@
+{
+  "slug": "image-compressor",
+  "name": "Image Compressor",
+  "icon": "🖼️",
+  "category": "image",
+  "description": "Compress images (PNG, JPG, WebP) without noticeable quality loss",
+  "version": "1.0.0"
+}
